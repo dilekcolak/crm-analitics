@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+.env
+
+# IDE
+.idea/
+.vscode/
+
+# Sadece veri setini gizle
+Datasets/*
+
+# (İstersen çıktı CSV’lerini de gizle)
+# *.csv
