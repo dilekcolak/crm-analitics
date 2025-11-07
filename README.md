@@ -33,18 +33,31 @@ Bu proje, FLO müşteri verisi üzerinde hem **RFM Segmentasyonu** hem de **CLTV
 ## 📂 Proje Yapısı
 
 crm-analitics/
-├─ Datasets/ # Veri burada yer almalı (git'e dahil edilmez)
-│ └─ flo_data_20k.csv
+
+├─ Datasets/
+
+│ 
+
+└─ flo_data_20k.csv
+
 ├─ src/
-│ ├─ refm_segmentation.py
-│ └─ cltv_prediction.py
+
+│ 
+
+├─ refm_segmentation.py
+
+│ 
+
+└─ cltv_prediction.py
+
 ├─ requirements.txt
+
 ├─ loyal_champ_woman_customers.csv # RFM çıktısı (Görev 5-a)
+
 ├─ discount_male_kids.csv # RFM çıktısı (Görev 5-b)
+
 └─ cltv_output_6m.csv # CLTV çıktısı
 
-yaml
-Kodu kopyala
 
 > **⚠️ Veri seti repoya dahil edilmez.**  
 > `.gitignore` ile `Datasets/` klasörü gizlenmiştir.
