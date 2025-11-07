@@ -68,50 +68,44 @@ crm-analitics/
 
 1. Sanal ortam oluştur:
 
-```bash
 python -m venv .venv
 Ortamı aktif et:
 
 Windows
 
-bash
-Kodu kopyala
 .venv\Scripts\activate
+
 Mac / Linux
 
-bash
-Kodu kopyala
 source .venv/bin/activate
+
 Gereksinimleri yükle:
 
-bash
-Kodu kopyala
 pip install -r requirements.txt
+
 ▶️ Çalıştırma
-RFM Segmentasyonu
-bash
-Kodu kopyala
+
+RFM Segmentasyonu:
+
 python src/refm_segmentation.py
-Çıktılar proje kökünde oluşur:
+#Çıktılar proje kökünde oluşur:
 
 loyal_champ_woman_customers.csv
 
 discount_male_kids.csv
 
 CLTV Prediction
-bash
-Kodu kopyala
-python src/cltv_prediction.py
-Çıktı:
 
-cltv_output_6m.csv
+python src/cltv_prediction.py
+
+Çıktı:
+    cltv_output_6m.csv
 
 🛡️ Veri Gizliliği
 Bu proje gerçek veri içerdiğinden:
 
 Veri seti repo dışında tutulur.
 
-.gitignore ile Datasets/ dizini GitHub’a yüklenmez.
 
 📎 Kullanılan Teknolojiler
 Python
@@ -129,7 +123,9 @@ Plug & Play kullanım — veri setini koy, script’i çalıştır, çıktı haz
 
 Çıktılar otomatik CSV olarak kaydedilir
 
+
 💬 İletişim
+
 Proje sahibi: Dilek Miraç Çolak
 
 LinkedIn: www.linkedin.com/in/dilek-mirac-colak
